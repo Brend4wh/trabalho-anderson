@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #ff0095;
+}
+img{
+    width: 600px;
+    height: 20% ;
+    border-radius: 10px;
+}
+header{
+    background-color: #eff1f3;
+    height: 10%;
+    width: 605px;
+    border-radius: 10px;
+}
+p{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 10;
+    text-transform: uppercase;
+}
+h1{
+    line-height: 2;
+}
+button{
+    background: #ffc0cb;
+    height:50px;
+    width: px;
+    text-transform: uppercase;
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    img, p{
+        display: inline-block;
+        }
+}
+@media (min-width: 1024px){
+header, p, h1, button{
+display: inline-block; 
+
+}
+
+}
